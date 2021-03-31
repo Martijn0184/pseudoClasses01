@@ -1,0 +1,55 @@
+body{
+width: 70%;
+margin: auto;
+}
+
+
+a:link{
+    text-decoration: none;
+}
+nav{
+    background-color: darkblue;
+}
+nav ul{
+
+display: flex;
+justify-content: space-around;
+list-style: none;
+}
+
+.black{
+    color: black;
+}
+.currentPage
+{
+    background-color: greenyellow;
+}
+.black:hover{
+    background-color: lightblue;
+}
+
+ul:first-child{
+    padding-left: 0;
+}
+#search:focus{
+border: aqua solid 5px;
+}
+
+#link01:hover{
+color: lightblue;
+font-weight: bold;
+}
+
+#link02:active{
+color: red;    
+font-style: italic;
+}
+
+#link03:visited{
+color:yellow
+}
+
+#text01:focus{
+color: green;
+font-size: 20px;
+}
